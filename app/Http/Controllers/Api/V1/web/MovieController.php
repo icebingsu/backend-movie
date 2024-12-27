@@ -1,11 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
-
-use App\Http\Requests\StoreMovieRequest;
-use App\Http\Requests\UpdateMovieRequest;
+namespace App\Http\Controllers\Api\V1\web;
 use App\Models\Movie;
-
+use App\Http\Controllers\Controller;
 class MovieController extends Controller
 {
     /**
@@ -27,5 +24,5 @@ class MovieController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-  
+
 }
